@@ -38,7 +38,7 @@ css中的像素理解起来很简单，就是我们在css文件中设置的像�
 
 在iphone6的显示下效果如图：
 
-![1](/images/viewport/1.png)
+![1](/static/images/viewport/1.png)
 
 这里会看到，当两个container的宽度适应屏幕大小时显示的是980px，而不是设备的375px。不同的设备下这个值也不同，主要大小有980和1024，可以通过`document.documentElement.clientWidth`来得到。而至于这里为什么和设备像素不同，又会涉及到以下meta标签中viewport的知识。
 
@@ -46,7 +46,7 @@ css中的像素理解起来很简单，就是我们在css文件中设置的像�
 
 在做移动端web开发时都会对这个值进行设置，一般会设置成`<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale = 1.0, maximum-scale=1.0, user-scalable=0">`。这样设置会使得viewport宽度等于设备的宽度并且同时不允许用户进行手势缩放。
 
-![2](/images/viewport/2.png)
+![2](/static/images/viewport/2.png)
 
 这样再次查看上面这张图会发现它的视口宽度和设备宽度已经相等了。在开发过程中我们需要的就是这种效果。
 
@@ -84,13 +84,13 @@ css都设置为以下值：
 
 如果没有设置meta viewport属性：
 
-![3](/images/viewport/3.png)
+![3](/static/images/viewport/3.png)
 
 可以看到，元素完全显示在屏幕当中，无横向滑动框，即可视区域大小为1200px。但这里注意body的大小被限制在了980px。可见视口大小还是980px。因此可以认为**meta viewport标签设置的尺寸就是视口大小，即文档尺寸大小**。而此时屏幕大小则是由浏览器自动计算缩放值来使得网页不会出现滚动条来得到的。
 
 设置meta viewport属性为`<meta name='viewport' content='width=1000, initial-scale=1.0'>`:
 
-![4](/images/viewport/4.png)
+![4](/static/images/viewport/4.png)
 
 可以看到，文档宽度为1000px，超出屏幕宽度并出现滚动条。
 
