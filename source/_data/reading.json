@@ -8,10 +8,17 @@
         "readed": [
             {
                 "title": "JavaScript语言精粹",
-                "cover": "http://img3.douban.com/lpic/s11373174.jpg",
+                "cover": "https://images-cn.ssl-images-amazon.com/images/I/51UpG9jGfeL.jpg",
                 "review": "很好的一本js入门书籍，着重讲解了js的语言优点",
                 "score": "9",
                 "doubanLink": "http://book.douban.com/subject/11874748/"
+            },
+            {
+                "title": "JavaScript权威指南",
+                "cover": "https://images-cn.ssl-images-amazon.com/images/I/51QWrj6sodL.jpg",
+                "review": "对核心js语言和web浏览器都进行了讲解，本书特别厚，适合作为工具书查阅",
+                "score": "8.5",
+                "doubanLink": "https://book.douban.com/subject/10549733/"
             }
         ],
         "reading": [],
