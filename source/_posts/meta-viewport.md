@@ -8,7 +8,7 @@ tags:
 - HTML
 - CSS
 
-date: 2016/11/26
+date: 2016/12/02
 folder: web/html
 en-title: meta-viewport
 ---
