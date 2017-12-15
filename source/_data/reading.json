@@ -1,0 +1,20 @@
+{
+    "define": {
+        "readed": "已读",
+        "reading": "在读",
+        "wanted": "想读"
+    },
+    "contents": {
+        "readed": [
+            {
+                "title": "JavaScript语言精粹",
+                "cover": "http://img3.douban.com/lpic/s11373174.jpg",
+                "review": "很好的一本js入门书籍，着重讲解了js的语言优点",
+                "score": "9",
+                "doubanLink": "http://book.douban.com/subject/11874748/"
+            }
+        ],
+        "reading": [],
+        "wanted": []
+    }
+}
