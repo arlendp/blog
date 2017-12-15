@@ -68,7 +68,7 @@ category_generator:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: raytaylorism
+theme: hexo-theme-raytaylorism
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
