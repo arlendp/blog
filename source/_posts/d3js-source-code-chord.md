@@ -1,4 +1,4 @@
-﻿title: d3.js源码分析——Chord
+﻿title: d3.js源码分析之Chord
 
 categories:
 - Web开发

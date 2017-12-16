@@ -1,19 +1,13 @@
 [{
-    "image": "http://lorempixel.com/580/250/nature/1",
+    "image": "/static/images/webpack/webpack.png",
     "align": "center",
-    "title": "This is our big Tagline!",
-    "subtitle": "Here's our small slogan.",
-	"link": "/"
+    "title": "Webpack打包优化",
+    "subtitle": "优化你的项目代码",
+    "link": "http://blog.arlendp.me/web/js/webpack-packaging-optimization/"
 }, {
-    "image": "http://lorempixel.com/580/250/nature/2",
-    "align": "left",
-    "title": "Left Aligned Caption",
-    "subtitle": "Here's our small slogan.",
-	"link": null
-}, {
-    "image": "http://lorempixel.com/580/250/nature/3",
+    "image": "/static/images/d3/d3.png",
     "align": "right",
-    "title": "Right Aligned Caption",
-    "subtitle": "Here's our small slogan.",
-	"link": null
+    "title": "d3源码分析",
+    "subtitle": "学习Requests是如何实现的",
+    "link": "http://blog.arlendp.me/web/js/d3js-source-code-requests/"
 }]

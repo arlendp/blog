@@ -1,4 +1,4 @@
-﻿title: d3.js源码分析——Force
+﻿title: d3.js源码分析之Force
 
 categories:
 - Web开发
